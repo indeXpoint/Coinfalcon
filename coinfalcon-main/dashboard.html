@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://coinfalcon.com/dashboard -->
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="shortcut icon" href="https://coinfalcon.com/favicon/favicon.ico">
+      <link rel="icon" href="https://coinfalcon.com/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+      <link rel="icon" href="https://coinfalcon.com/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+      <link href="https://fonts.googleapis.com/" rel="preconnect" crossorigin="">
+      <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="">
+      <link href="./CoinFalcon_files/css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1,user-scalable=0">
+      <meta name="theme-color" content="#1AB6FF">
+      <meta name="format-detection" content="telephone=no">
+      <meta property="og:url" content="https://coinfalcon.com">
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="CoinFalcon – Buy and Sell Bitcoin, Ethereum | Cryptocurrency Exchange">
+      <meta property="og:description" content="CoinFalcon is the trusted cryptocurrency exchange that allows you to buy, sell, and track the price of Bitcoin, Ethereum, XRP, Litecoin and Bitcoin Cash, among other cryptocurrencies, within minutes. Trade with other digital assets or use your credit card!">
+      <meta property="og:image" content="https://coinfalcon.com/social/og_image_web.png">
+      <meta content="CoinFalcon" name="apple-mobile-web-app-title">
+      <link href="https://coinfalcon.com/assets/other/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+      <link rel="manifest" href="https://coinfalcon.com/manifest.json">
+      <title>CoinFalcon – Buy and Sell Bitcoin, Ethereum | Cryptocurrency Exchange</title>
+      <link rel="preload" href="https://coinfalcon.com/assets/other/loader@3x.png" as="image">
+      
+      <link href="./CoinFalcon_files/main.03597fae.chunk.css" rel="stylesheet">
+ 
+      <link rel="stylesheet" type="text/css" href="./CoinFalcon_files/dashboard.30d9e100.chunk.css">
+
+
+      <link href="https://client.relay.crisp.chat/" rel="dns-prefetch" crossorigin="">
+      <link href="https://client.crisp.chat/" rel="preconnect" crossorigin="">
+      <link href="./CoinFalcon_files/client_default.css" type="text/css" rel="stylesheet">
+  
+      <link rel="stylesheet" type="text/css" href="./CoinFalcon_files/chatbox.8985ec47.chunk.css">
+
+      <link rel="stylesheet" type="text/css" href="./CoinFalcon_files/deposit.ce3acaaf.chunk.css">
+   
+   </head>
+   <body class="js-webp js-background--gray-lightest" style="">
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55VCT8D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <div id="root">
+         <div id="js-router-root" class="app">
+            <header class="Header_header__1uTC0">
+               <div class="container d-flex align-items-center justify-content-between">
+                  <div class="Header_logo__2lj95">
+                     <svg width="154px" height="18px" viewBox="0 0 154 18">
+                        <title></title>
+                        <g fill="none" fill-rule="evenodd">
+                           <path fill="#1AB6FF" d="M42,0 L35.653,7.623 L25.387,12.686 L28.513,15.271 L21,18 L13.51,15.271 L16.613,12.686 L6.347,8.943 L0,0 L9.435,0 L21,11.809 L32.565,0 L42,0 Z M25.007,5.714 L21,9.831 L16.993,5.714 L25.007,5.714 Z"></path>
+                           <path fill="#22272F" fill-rule="nonzero" d="M52.4,14.224 C49.2,14.224 46.624,11.776 46.624,8.432 L46.624,8.4 C46.624,5.136 49.12,2.576 52.512,2.576 C54.8,2.576 56.272,3.536 57.264,4.896 L54.928,6.704 C54.288,5.92 53.552,5.392 52.48,5.392 C50.912,5.392 49.808,6.736 49.808,8.368 L49.808,8.4 C49.808,10.08 50.912,11.392 52.48,11.392 C53.648,11.392 54.336,10.848 55.008,10.032 L57.344,11.696 C56.288,13.152 54.864,14.224 52.4,14.224 L52.4,14.224 Z M63.716,14.224 C60.26,14.224 57.7,11.648 57.7,8.432 L57.7,8.4 C57.7,5.184 60.292,2.576 63.748,2.576 C67.204,2.576 69.764,5.152 69.764,8.368 L69.764,8.4 C69.764,11.616 67.172,14.224 63.716,14.224 L63.716,14.224 Z M63.748,11.424 C65.444,11.424 66.58,10.048 66.58,8.432 L66.58,8.4 C66.58,6.768 65.428,5.376 63.716,5.376 C62.004,5.376 60.868,6.752 60.868,8.368 L60.868,8.4 C60.868,10.016 62.036,11.424 63.748,11.424 L63.748,11.424 Z M71.144,14 L71.144,2.8 L74.248,2.8 L74.248,14 L71.144,14 Z M75.996,14 L75.996,2.8 L78.892,2.8 L83.5,8.72 L83.5,2.8 L86.572,2.8 L86.572,14 L83.868,14 L79.068,7.856 L79.068,14 L75.996,14 Z M88.256,14 L88.256,2.8 L97.216,2.8 L97.216,5.52 L91.36,5.52 L91.36,7.424 L96.656,7.424 L96.656,10 L91.36,10 L91.36,14 L88.256,14 L88.256,14 Z M96.18,14 L100.932,2.72 L103.924,2.72 L108.692,14 L105.364,14 L104.564,11.984 L100.228,11.984 L99.428,14 L96.18,14 L96.18,14 Z M101.14,9.568 L103.652,9.568 L102.404,6.4 L101.14,9.568 L101.14,9.568 Z M109.48,14 L109.48,2.8 L112.584,2.8 L112.584,11.28 L118.008,11.28 L118.008,14 L109.48,14 Z M123.82,14.224 C120.62,14.224 118.044,11.776 118.044,8.432 L118.044,8.4 C118.044,5.136 120.54,2.576 123.932,2.576 C126.22,2.576 127.692,3.536 128.684,4.896 L126.348,6.704 C125.708,5.92 124.972,5.392 123.9,5.392 C122.332,5.392 121.228,6.736 121.228,8.368 L121.228,8.4 C121.228,10.08 122.332,11.392 123.9,11.392 C125.068,11.392 125.756,10.848 126.428,10.032 L128.764,11.696 C127.708,13.152 126.284,14.224 123.82,14.224 L123.82,14.224 Z M135.136,14.224 C131.68,14.224 129.12,11.648 129.12,8.432 L129.12,8.4 C129.12,5.184 131.712,2.576 135.168,2.576 C138.624,2.576 141.184,5.152 141.184,8.368 L141.184,8.4 C141.184,11.616 138.592,14.224 135.136,14.224 Z M135.168,11.424 C136.864,11.424 138,10.048 138,8.432 L138,8.4 C138,6.768 136.848,5.376 135.136,5.376 C133.424,5.376 132.288,6.752 132.288,8.368 L132.288,8.4 C132.288,10.016 133.456,11.424 135.168,11.424 L135.168,11.424 Z M142.484,14 L142.484,2.8 L145.38,2.8 L149.988,8.72 L149.988,2.8 L153.06,2.8 L153.06,14 L150.356,14 L145.556,7.856 L145.556,14 L142.484,14 L142.484,14 Z"></path>
+                        </g>
+                     </svg>
+                  </div>
+                  <div class="Header_menu__1Zuw-"><a aria-current="page" class="is-link-active" href="https://coinfalcon.com/dashboard"><button class="Button_button__2Lf63 Button_link__Kr8EU Button_medium__3BKp8 subtitle--small text-weight--medium">Trade</button></a><a href="https://coinfalcon.com/advanced-view"><button class="Button_button__2Lf63 Button_link__Kr8EU Button_medium__3BKp8 subtitle--small text-weight--medium">Advanced</button></a><a href="https://coinfalcon.com/invite"><button class="Button_button__2Lf63 Button_link__Kr8EU Button_medium__3BKp8 subtitle--small text-weight--medium">Invite friends<span class="caption medium text-color--black Label_label__EDWeJ Label_success__1-by5">Earn 5€</span></button></a></div>
+                  <div class="UserHeader_wrapper__TXMQA subtitle--small">
+                     <div>
+                        <div>
+                           <div class="UserHeader_inner__2o42R">
+                              <div class="UserHeader_icon__3QTjR"><img class="Icon_icon__2Th0s Icon_medium__3O1Jt Icon_withShadow__3lbiL" src="./CoinFalcon_files/user.svg" alt="user" decoding="auto"></div>
+                              <span class="UserHeader_user__1-SOa">
+                                 <p class="subtitle subtitle--small regular text-color--black "> </p>
+                              </span>
+                              <div class="UserHeader_chevron__zNOpy"><img class="Icon_icon__2Th0s Icon_medium__3O1Jt" src="./CoinFalcon_files/chevron-down.svg" alt="chevron-down" decoding="auto"></div>
+                           </div>
+                           <div class="Header_dropdown__3xCru text--small Header_user__2PyF-">
+                              <a href="https://coinfalcon.com/settings/profile">
+                                 <div><img class="Icon_icon__2Th0s Icon_medium__3O1Jt" src="./CoinFalcon_files/user.svg" alt="user" decoding="auto"><span class="text text--normal text-weight--medium text-color--black " title="">My Account</span></div>
+                              </a>
+                              <a class="UserHeader_inviteLink__mob__9UTzJ" href="https://coinfalcon.com/invite">
+                                 <div><img class="Icon_icon__2Th0s Icon_medium__3O1Jt" src="./CoinFalcon_files/mail.svg" alt="mail" decoding="auto"><span class="text text--normal text-weight--medium text-color--black " title="">Invite friends</span></div>
+                                 <span class="caption medium text-color--black Label_label__EDWeJ Label_success__1-by5">Earn 5€</span>
+                              </a>
+                              <a href="https://coinfalcon.com/settings/security">
+                                 <div><img class="Icon_icon__2Th0s Icon_medium__3O1Jt" src="./CoinFalcon_files/lock.svg" alt="lock" decoding="auto"><span class="text text--normal text-weight--medium text-color--black " title="">Security</span></div>
+                              </a>
+                              <a href="https://coinfalcon.com/settings/history">
+                                 <div><img class="Icon_icon__2Th0s Icon_medium__3O1Jt" src="./CoinFalcon_files/history.svg" alt="history" decoding="auto"><span class="text text--normal text-weight--medium text-color--black " title="">History</span></div>
+                              </a>
+                              <a class="" href="https://coinfalcon.com/advanced-view">
+                                 <div><img class="Icon_icon__2Th0s Icon_medium__3O1Jt" src="./CoinFalcon_files/advanced.svg" alt="advanced" decoding="auto"><span class="text text--normal text-weight--medium text-color--black " title="">Advanced</span></div>
+                              </a>
+                              <a class="" href="https://support.coinfalcon.com/">
+                                 <div><img class="Icon_icon__2Th0s Icon_medium__3O1Jt" src="./CoinFalcon_files/support.svg" alt="support" decoding="auto"><span class="text text--normal text-weight--medium text-color--black " title="">Support</span></div>
+                              </a>
+                              <hr class="UserHeader_line__HeKsU">
+                              <div class="Header_btn__2UrBp"><img class="Icon_icon__2Th0s Icon_medium__3O1Jt" src="./CoinFalcon_files/log-out.svg" alt="log-out" decoding="auto"><span class="text text--normal text-weight--medium text-color--black " title="">Log out</span></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </header>
+            <div class="app__content">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-12 col-xl-8 Dashboard_content__3Iu4q">
+                        <div class="Box_element__1-GcW">
+                           <div class="Funds_body__cBqcI">
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <span class="text text--normal text-weight--regular text-color--dark-light Funds_title__33rZv" title="">Estimated portfolio value</span><span class="text text--normal text-weight--regular text-color--dark-light Funds_date__B7CQN" title=""></span>
+                                    <div class="Funds_total__2nrTi">
+                                       <div class="FiatValuePrice_lead__3Kv1C text-weight--black">
+                                          <div>$0</div>
+                                       </div>
+                                       <div class="Funds_changeWrap__1HE1t"></div>
+                                    </div>
+                                 </div>
+                                 <div>
+                                    <div>
+                                       <div class="Dropdown_dropdown__2ms-9 Dropdown_normal__2WG6U Funds_durationDropdown__3I6-j Dropdown_is__select__2vvL2">
+                                          <div class="Dropdown_inner__xwjep">
+                                             1W
+                                             <div class="Dropdown_chevron__urzU7">
+                                                <span class="">
+                                                   <svg width="24" height="24" viewBox="0 0 24 24" class="Icon_icon__2Th0s Icon_medium__3O1Jt Icon_dark-light__7XQlF">
+                                                      <path d="M12 13.586L6.707 8.293a1 1 0 10-1.414 1.414l6 6a1 1 0 001.414 0l6-6a1 1 0 10-1.414-1.414L12 13.586z"></path>
+                                                   </svg>
+                                                </span>
+                                             </div>
+                                          </div>
+                                          <div class="Dropdown_select__9J31O">
+                                             <div style="position: relative; overflow: hidden; width: 100%; height: auto; min-height: 0px; max-height: 165px;">
+                                                <div style="position: relative; overflow: scroll; margin-right: 0px; margin-bottom: 0px; min-height: 0px; max-height: 165px;">
+                                                   <ul class="Dropdown_list__3Zdmf">
+                                                      <div>1W</div>
+                                                      <div>1M</div>
+                                                      <div>1Y</div>
+                                                   </ul>
+                                                </div>
+                                                <div class="Scrollbar_horizontal__22rXD" style="position: absolute; height: 6px; display: none;">
+                                                   <div style="position: relative; display: block; height: 100%; cursor: pointer; border-radius: inherit; background-color: rgba(0, 0, 0, 0.2);"></div>
+                                                </div>
+                                                <div class="Scrollbar_vertical__3YB07" style="position: absolute; width: 6px; display: none;">
+                                                   <div style="position: relative; display: block; width: 100%; cursor: pointer; border-radius: inherit; background-color: rgba(0, 0, 0, 0.2);"></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="Funds_chart__empty__2FLRg"></div>
+                           </div>
+                        </div>
+                        <div class="Box_element__1-GcW"></div>
+                        <div class="Box_element__1-GcW TableBox_table__2hyz1">
+                           <div class="Box_header__Zd_Li TableBox_boxHeader__2RaX1">
+                              <h2 class="text-color--black ">Cryptocurrencies</h2>
+                              <div class="TableBox_search__39XF7">
+                                 <div class="Input_wrapper__2KA27 Table_focus__animation__xR8qn Input_withAddon__LqHHt Input_dimmed__2C6Dq">
+                                    <div class="Input_leftAddon__2EV2M">
+                                       <span class="">
+                                          <svg viewBox="0 0 24 24" class="Icon_icon__2Th0s search__icon Icon_x-small__3bLzJ Icon_dark-light__7XQlF">
+                                             <path d="M17.2 15.8l4.5 4.5c.4.4.4 1 0 1.4-.4.4-1 .4-1.4 0l-4.5-4.5c-3.7 2.9-9 2.3-11.9-1.4s-2.3-9 1.4-11.9 9-2.3 11.9 1.4c2.4 3 2.4 7.4 0 10.5zm-2-.8c2.5-2.6 2.4-6.7-.1-9.2S8.3 3.4 5.8 6s-2.4 6.7.2 9.2c2.5 2.5 6.5 2.5 9.1 0 0-.1 0-.1.1-.2z"></path>
+                                          </svg>
+                                       </span>
+                                    </div>
+                                    <input type="text" class="Input_input__1PqG1" placeholder="Search" maxlength="20" value="">
+                                 </div>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="Header_head__lPk9B row no-margin d-none d-md-flex">
+                                 <div class="col-3 col-md-2 offset-sm-1 pl-0"><span class="text text--normal text-weight--regular text-color--gray Header_txt__1UgEG" title="">Name</span></div>
+                                 <div class="col-md-3 col-sm-2 t-right"><span class="text text--normal text-weight--regular text-color--gray Header_txt__1UgEG" title="">Price</span></div>
+                                 <div class="col-3 pl-4"><span class="text text--normal text-weight--regular text-color--gray Header_txt__1UgEG" title="">Change, 24 hrs</span></div>
+                                 <div class="col-2 Header_graph__col__1L1NN"><span class="text text--normal text-weight--regular text-color--gray " title="">Graph</span></div>
+                              </div>
+                           
+
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS and its dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="tradeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style=" background-color: transparent; ">
+      
+      <div class="modal-body">
+      
+<form id="tradeForm">
+<!--  -->
+
+
+<div class="BaseModal_content__2D8jk">
+   <div id="js-buy-sell-box">
+      <div class="BuySell_tabs__36vZk subtitle--normal text-weight--regular"><button class="BuySell_active__28H06 text-weight--medium">Buy</button><button class="">Sell</button></div>
+      <div class="Creator_body__1BHTZ">
+       
+            <select style="
+    width: 100%;
+" id="coinSelect" class="CoinSelected_element__xjjYm subtitle--small text-weight--medium d-flex">
+                <!-- Coin options will be appended here -->
+            </select>
+         <div>
+           
+<div class="Creator_wrapperInner__3ZOCb">
+   <div class="AmountInput_wrapper__u_eHX">
+     
+
+      <div id="parentDiv"  class="AmountInput_inner__2bC36 AmountInput_notEmpty__3LX8F" style="margin-left: 118px;">
+         <div class="NumberInput_wrapper__2ibPP">
+            <input type="number" class="NumberInput_input__9agxA AmountInput_input__S07Jw text-weight--medium"  id="usdInput" placeholder="0" min="0" max="10000000000" step="0.01" value="" style="font-size: 60px; height: 48px;"></div>
+         <span class="AmountInput_currency__2kGkR text-weight--medium">USD</span>
+      </div>
+
+
+<script>
+   // Locate the elements
+   const numInput = document.getElementById('usdInput');
+   const parentDiv = document.getElementById('parentDiv');
+
+   // Function to adjust styles
+   const adjustStyles = (element, len) => {
+      switch(len) {
+         case 1: 
+            parentDiv.style.marginLeft = "120px"; 
+            element.style.fontSize = "61px";
+            break;
+         case 2: 
+            parentDiv.style.marginLeft = "110px"; 
+            element.style.fontSize = "58px";
+            break;
+         case 3: 
+            parentDiv.style.marginLeft = "100px";
+            element.style.fontSize = "55px"; 
+            break;
+         case 4: 
+            parentDiv.style.marginLeft = "90px"; 
+            element.style.fontSize = "52px";
+            break;
+         case 5: 
+            parentDiv.style.marginLeft = "80px"; 
+            element.style.fontSize = "49px";
+            break;
+         case 6: 
+            parentDiv.style.marginLeft = "70px"; 
+            element.style.fontSize = "46px";
+            break;
+         case 7: 
+            parentDiv.style.marginLeft = "60px"; 
+            element.style.fontSize = "43px";
+            break;
+         case 8: 
+            parentDiv.style.marginLeft = "50px"; 
+            element.style.fontSize = "40px";
+            break;
+         default: 
+            parentDiv.style.marginLeft = "120px"; 
+            element.style.fontSize = "61px";
+            break;
+      }
+   }
+
+   // Event listener
+   numInput.addEventListener('input', function(e) {
+      const len = e.target.value.length;
+      adjustStyles(e.target, len);
+   });
+
+   // Onload margin adjustment
+   window.onload = function() {
+      const len = numInput.value.length;
+      adjustStyles(numInput, len);
+   }
+</script>
+
+
+
+   </div>
+   <div class="Creator_reversable__1oaoa">
+      <span class="hovered__ripple" id="togglePriceBtn">
+         <span class="">
+            <svg width="24" height="24" viewBox="0 0 24 24" class="Icon_icon__2Th0s Icon_medium__3O1Jt Icon_gray__3t526">
+               <path d="M6.902 17h9.848c1.408 0 2.55-1.12 2.55-2.5v-1.667c0-.46.38-.833.85-.833s.85.373.85.833V14.5c0 2.301-1.903 4.167-4.25 4.167H6.902l1.949 1.91a.822.822 0 010 1.179.862.862 0 01-1.202 0l-3.4-3.333a.822.822 0 010-1.179l3.4-3.333a.862.862 0 011.202 0 .822.822 0 010 1.178L6.902 17zM18.098 7H7.25C5.842 7 4.7 8.12 4.7 9.5v1.667c0 .46-.38.833-.85.833a.842.842 0 01-.85-.833V9.5c0-2.301 1.903-4.167 4.25-4.167h10.848l-1.949-1.91a.822.822 0 010-1.179.862.862 0 011.202 0l3.4 3.333a.822.822 0 010 1.179l-3.4 3.333a.862.862 0 01-1.202 0 .822.822 0 010-1.178L18.098 7z"></path>
+            </svg>
+         </span>
+      </span>
+      <span id="crypto-code"  class="text text--normal text-weight--regular text-color--gray Creator_reversable__code__1eNAd" title="">BCH</span>
+   </div>
+</div>
+
+
+         </div>
+
+
+<style>
+   .center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.center-content {
+  text-align: center;
+}
+
+</style>
+
+<div  id="preview-button"   class="Button_button__2Lf63 Button_primary__I_9I9 Button_large__1i_fg subtitle--normal text-weight--medium Button_block__1ydit center-container">
+  <div class="center-content">
+    Preview Bitcoin Buy
+  </div>
+</div>
+
+
+
+      </div>
+      <div class="d-xl-none BuySell_modal__close__36ZbG">
+         <span class="Icon_withShadow__3lbiL Icon_withShadowInlined__2OGBl">
+            <svg viewBox="0 0 24 24" class="Icon_icon__2Th0s Icon_medium__3O1Jt Icon_black__2gOQt">
+               <path d="M13.4 12l5.3 5.3c.4.4.4 1 0 1.4-.4.4-1 .4-1.4 0L12 13.4l-5.3 5.3c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l5.3-5.3-5.3-5.3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l5.3 5.3 5.3-5.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4L13.4 12z"></path>
+            </svg>
+         </span>
+      </div>
+   </div>
+</div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+                              <div id="allcoins"> </div>
+
+
+                               
+<script>
+document.getElementById("preview-button").addEventListener("click", function() {
+  var cryptoCode = document.getElementById("crypto-code").innerText;
+  var usdAmount = document.getElementById("usdInput").value;
+  
+  // Save the cryptoCode and usdAmount in session storage
+  sessionStorage.setItem("cryptoCode", cryptoCode);
+  sessionStorage.setItem("usdAmount", usdAmount);
+  
+  // Redirect to pay.html
+  window.location.href = "pay.html";
+});
+
+
+</script>
+
+
+
+    <script>
+
+const coins = ['bitcoin', 'ethereum', 'bitcoin-cash', 'litecoin', 'tether', 'ripple', 'dogecoin', 'tron', 'cardano', 'greenpower'];
+const container = document.querySelector('#allcoins');
+let lastCoinPrice = null;
+
+const coinData = {};
+
+coins.forEach(coin => {
+    fetch(`https://api.coingecko.com/api/v3/coins/${coin}`)
+        .then(response => response.json())
+        .then(data => {
+            const rowElement = document.createElement('div');
+            rowElement.className = "table-row cursor--pointer CoinsTable_table__row__1l73l";
+                       rowElement.innerHTML = `
+            <div class="col-md-4 col-8 pl-0">
+               <p class="subtitle subtitle--small regular text-color--black CoinInfo_name__4C0Ky">
+                  <span class="CoinsTable_star__icon__37Otu">
+                     <span class="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="Icon_icon__2Th0s CoinsTable_star__empty__1I41o Icon_x-small__3bLzJ Icon_gray-light__2vBLq">
+                           <path d="M10.006 8.962a.909.909 0 01-.683.494l-4.46.648 3.226 3.125a.9.9 0 01.262.8l-.761 4.413 3.987-2.085a.914.914 0 01.846 0l3.987 2.085-.76-4.413a.9.9 0 01.26-.8l3.227-3.125-4.46-.648a.909.909 0 01-.683-.494L12 4.946l-1.994 4.016zM8.587 7.736l2.598-5.232a.911.911 0 011.63 0l2.598 5.232 5.808.844a.902.902 0 01.503 1.542l-4.202 4.07.992 5.75c.127.738-.653 1.3-1.32.952L12 18.178l-5.195 2.716c-.666.349-1.446-.214-1.319-.953l.992-5.75-4.202-4.07a.902.902 0 01.503-1.54l5.808-.845z"></path>
+                        </svg>
+                     </span>
+                  </span>
+                  <span><img class="Icon_icon__2Th0s Icon_large__2TSot" src="${data.image.large}" alt="${data.symbol}" decoding="auto"></span>
+                  <span class="CoinInfo_coinInfo__1otAJ">
+                    <span class="CoinInfo_coin__name__1E6hb">${data.name}</span>
+                    <span class="text text--normal text-weight--regular text-color--dark-light d-none d-md-inline-block" title="">${data.symbol.toUpperCase()}</span>
+                    <span class="d-block d-md-none"><span class="text text--normal text-weight--regular text-color--dark-light ml-0" title="">
+                    <span class="ml-0">${data.market_data.current_price.usd}$</span>
+                  </span>
+               </p>
+            </div>
+            <div class="col-md-2 col-2 t-right d-none d-md-block">
+               <p class="subtitle subtitle--small regular text-color--black ">
+                  <span class="">${data.market_data.current_price.usd}$</span></p>
+            </div>
+            <div class="col-md-2 col-4 t-right CoinsTable_tradeButton__col__kw4Jn">
+                <button id="${data.symbol}" class="Button_button__2Lf63 Button_subtle__1xH3A Button_tiny__1xEVb text-weight--medium CoinsTable_action__32Y26" data-toggle="modal" data-target="#tradeModal">Trade</button>
+            </div>`;
+           
+
+            
+            container.appendChild(rowElement);
+
+            coinData[data.id] = data;
+
+            const coinSelect = document.getElementById('coinSelect');
+            const optionElement = document.createElement('option');
+            optionElement.value = data.id;
+            optionElement.textContent = data.name;
+            coinSelect.appendChild(optionElement);
+        })
+        .catch(error => console.error(`Error: ${error}`));
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const togglePriceBtn = document.getElementById('togglePriceBtn');
+    const coinSelect = document.getElementById('coinSelect');
+    const usdInput = document.getElementById('usdInput');
+    const coinSymbolSpan = document.querySelector('.Creator_reversable__code__1eNAd');
+    const currencySpan = document.querySelector('.AmountInput_currency__2kGkR');
+
+    let currentCurrency = 'USD';
+
+    togglePriceBtn.addEventListener('click', function() {
+        const selectedCoin = coinSelect.options[coinSelect.selectedIndex].value;
+        const currentPriceUSD = coinData[selectedCoin].market_data.current_price.usd;
+
+        if (currentCurrency === 'USD') {
+            const inputInUSD = parseFloat(usdInput.value);
+            usdInput.value = inputInUSD / currentPriceUSD;
+            currencySpan.textContent = coinData[selectedCoin].symbol.toUpperCase();
+            currentCurrency = coinData[selectedCoin].symbol.toUpperCase();
+        } else {
+            const inputInCoin = parseFloat(usdInput.value);
+            usdInput.value = inputInCoin * currentPriceUSD;
+            currencySpan.textContent = 'USD';
+            currentCurrency = 'USD';
+        }
+    });
+
+    coinSelect.addEventListener('change', function() {
+        const selectedCoin = coinSelect.options[coinSelect.selectedIndex].value;
+        coinSymbolSpan.textContent = coinData[selectedCoin].symbol.toUpperCase();
+    });
+});
+
+
+
+
+document.addEventListener('click', function(event) {
+    if(event.target && event.target.classList.contains('CoinsTable_action__32Y26')) {
+        const coinId = event.target.id;
+        document.getElementById('tradeCoinName').textContent = coinId;
+
+        const togglePriceBtn = document.getElementById('togglePriceBtn');
+        togglePriceBtn.addEventListener('click', function() {
+            const coinSelect = document.getElementById('coinSelect');
+            const selectedCoin = coinSelect.options[coinSelect.selectedIndex].value;
+            const usdInput = document.getElementById('usdInput');
+
+            fetch(`https://api.coingecko.com/api/v3/coins/${selectedCoin}`)
+                .then(response => response.json())
+                .then(data => {
+                    const currentCoinPrice = data.market_data.current_price.usd;
+                    
+                    if (!lastCoinPrice || lastCoinPrice === usdInput.value) {
+                        usdInput.value = currentCoinPrice;
+                        lastCoinPrice = currentCoinPrice;
+                    } else {
+                        usdInput.value = lastCoinPrice;
+                    }
+                })
+                .catch(error => console.error(`Error: ${error}`));
+        });
+    }
+});
+
+
+
+    </script>
+
+
+
+
+
+                             
+
+                             
+
+
+
+
+                              <div class="Items_show__more__j93-9"><button class="Button_button__2Lf63 Button_ghost__gQzG7 Button_medium__3BKp8 subtitle--small text-weight--medium">Show 10 more</button></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-xl-4 Dashboard_content__3Iu4q">
+                        <div id="js-buy-sell-box" class="Box_element__1-GcW BuySell_boxWrapper__qEISZ BuySell_hidden__ZFY_a d-none Box_square__2pv1P">
+                           <div class="BuySell_tabs__36vZk subtitle--normal text-weight--regular"><button class="BuySell_active__28H06 text-weight--medium">Buy</button><button class="">Sell</button></div>
+                           <div class="Creator_body__1BHTZ">
+                              <div class="CoinSelected_element__xjjYm subtitle--small text-weight--medium d-flex">
+                                 <div class="CoinSelected_coin__h8jnO d-flex">
+                                    <img class="Icon_icon__2Th0s CoinSelected_coin__icon__2s1Cy Icon_medium__3O1Jt" src="./CoinFalcon_files/btc.svg" alt="btc" decoding="auto">Bitcoin
+                                    <div class="CoinSelected_right__2V3CG"></div>
+                                 </div>
+                                 <div class="CoinSelected_arrow__1ZzFo">
+                                    <span class="">
+                                       <svg width="24" height="24" viewBox="0 0 24 24" class="Icon_icon__2Th0s Icon_small__pexh1 Icon_dark-light__7XQlF">
+                                          <path d="M8.293 6.707a1 1 0 111.414-1.414l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L13.586 12 8.293 6.707z"></path>
+                                       </svg>
+                                    </span>
+                                 </div>
+                              </div>
+                              <div>
+                                
+
+
+
+
+                              </div>
+                              <button class="Button_button__2Lf63 Button_primary__I_9I9 Button_large__1i_fg subtitle--normal text-weight--medium Button_block__1ydit">Preview Bitcoin Buy</button>
+                           </div>
+                           <div class="d-xl-none BuySell_modal__close__36ZbG">
+                              <span class="Icon_withShadow__3lbiL Icon_withShadowInlined__2OGBl">
+                                 <svg viewBox="0 0 24 24" class="Icon_icon__2Th0s Icon_medium__3O1Jt Icon_black__2gOQt">
+                                    <path d="M13.4 12l5.3 5.3c.4.4.4 1 0 1.4-.4.4-1 .4-1.4 0L12 13.4l-5.3 5.3c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l5.3-5.3-5.3-5.3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l5.3 5.3 5.3-5.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4L13.4 12z"></path>
+                                 </svg>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="Box_element__1-GcW">
+                           <div class="Wallets_body__3P60P">
+                              <span class="text text--normal text-weight--regular text-color--dark-light Wallets_title__BsA31" title="">Your wallets</span>
+                              <div class="Wallets_buttons__3ckiK"><button class="Button_button__2Lf63 Button_ghost__gQzG7 Button_small__1WqE1 text-weight--medium">Deposit</button><button class="Button_button__2Lf63 Button_ghost__gQzG7 Button_small__1WqE1 text-weight--medium" disabled="">Withdraw</button></div>
+                           </div>
+                        </div>
+                        <div class="Box_element__1-GcW">
+                           <div class="Box_header__Zd_Li">
+                              <h2 class="text-color--black ">First steps</h2>
+                              <div class="d-flex align-items-center">
+                                 <span class="text text--normal text-weight--regular text-color--dark-light mr-1" title="">33% Completed</span>
+                                 <div class="progress-pie ProgressPie_base__2dNYp ml-1 ProgressPie_lg__2rXUh  ProgressPie_ltHalf__2PB69">
+                                    <div class="ProgressPie_body__3g_Px"><span class="ProgressPie_left__2tHy7"><span class="ProgressPie_leftBox__32CKx" style="transform: rotate(0deg);"></span></span><span class="ProgressPie_right__9IBI9"><span class="ProgressPie_rightBox__2wAXk" style="transform: rotate(120deg);"></span></span></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="FirstSteps_step__sCaeM">
+                              <div class="FirstSteps_circle__IyRIM">
+                                 <span class="Icon_withShadow__3lbiL Icon_withShadowInlined__2OGBl">
+                                    <svg viewBox="0 0 24 24" class="Icon_icon__2Th0s Icon_x-large__WLf43 Icon_success__2q2Yp">
+                                       <path d="M4.7 12.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l5 5c.4.4 1 .4 1.4 0l11-11c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0L9 16.6l-4.3-4.3z"></path>
+                                    </svg>
+                                 </span>
+                              </div>
+                              <p class="subtitle subtitle--small regular text-color--dark-light strike-through">Confirm your email</p>
+                              <span class="text text--normal text-weight--regular text-color--dark-light strike-through" title="">Adds basic account security</span>
+                           </div>
+                           <div class="FirstSteps_step__sCaeM cursor--pointer">
+                              <div class="FirstSteps_circle__IyRIM"><img class="Icon_icon__2Th0s Icon_medium__3O1Jt Icon_withShadow__3lbiL" src="./CoinFalcon_files/credit-card.svg" alt="credit-card" decoding="auto"></div>
+                              <p class="subtitle subtitle--small medium text-color--black ">Add payment method</p>
+                              <span class="text text--normal text-weight--regular text-color--dark-light " title="">Bank Transfer</span>
+                           </div>
+                           <div class="FirstSteps_step__sCaeM cursor--pointer">
+                              <div class="FirstSteps_circle__IyRIM"><img class="Icon_icon__2Th0s Icon_medium__3O1Jt Icon_withShadow__3lbiL" src="./CoinFalcon_files/shop.svg" alt="shop" decoding="auto"></div>
+                              <p class="subtitle subtitle--small medium text-color--black ">Buy cryptocurrency</p>
+                              <span class="text text--normal text-weight--regular text-color--dark-light " title="">Choose from 11+ currencies</span>
+                           </div>
+                        </div>
+                        <div class="Box_element__1-GcW mb-3 mx-sm-0">
+                           <div class="justify-content-between d-flex col-12 ReferralBox_invite__3BWtU">
+                              <div class="col-lg-12 col-sm-8 col-10 align-self-md-center ReferralBox_inviteTitle__3ugqn">
+                                 <h2 class="text-color--black m-0">Refer us and Earn €5</h2>
+                                 <p class="subtitle subtitle--small regular text-color--dark-light mt-1 mb-0">Spread the word about us, send your friends your referral link.</p>
+                                 <button class="Button_button__2Lf63 Button_primary__I_9I9 Button_large__1i_fg subtitle--normal text-weight--medium ReferralBox_inviteBtn__1ur3L">Invite friends</button>
+                              </div>
+                              <div class="ReferralBox_close__36P0k hovered__ripple">
+                                 <span class="">
+                                    <svg viewBox="0 0 24 24" class="Icon_icon__2Th0s Icon_normal__26IQK Icon_gray__3t526">
+                                       <path d="M13.4 12l5.3 5.3c.4.4.4 1 0 1.4-.4.4-1 .4-1.4 0L12 13.4l-5.3 5.3c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l5.3-5.3-5.3-5.3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l5.3 5.3 5.3-5.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4L13.4 12z"></path>
+                                    </svg>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="AppFooter_wrap__3jiCt">
+               <div class="AppFooter_footer__36UYJ container">
+                  <div class="row mt-md-4">
+                     <div class="col-md-6 align-self-end mt-md-0 d-flex justify-content-md-start justify-content-center order-last order-md-first">
+                        <div class="AppFooter_footerCopy__1CSZX">
+                           <span class="text text--normal text-weight--regular text-color--dark-light AppFooter_copyText__3phHi" title="">© 2017-2023 CoinFalcon, Inc. All Rights Reserved</span>
+                           <div class="AppFooter_cards__v5pfx"><img class="Icon_icon__2Th0s Icon_large__2TSot" src="./CoinFalcon_files/mastercard.svg" alt="mastercard" decoding="auto"><img class="Icon_icon__2Th0s Icon_large__2TSot" src="./CoinFalcon_files/visa.svg" alt="visa" decoding="auto"></div>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-12 d-flex justify-content-md-end justify-content-center order-first order-md-last">
+                        <div class="AppFooter_selects__3V4bb mt-3">
+                           <div>
+                              <div class="Select_select__JK0vz text-weight--medium Select_mobile__1VGEr col btn__shadow LocalePicker_scrollbar__29JUd">
+                                 <div class="Select_selector__1VNZq">
+                                    <div class="LocalePicker_inner__1zCCE">
+                                       <div class="LocalePicker_icon__Vx454"><span class="locale-flag locale-flag--en"></span></div>
+                                       <span class="text text--normal text-weight--medium text-color--black text-clip" title="">English</span>
+                                       <div class="LocalePicker_chevron__2bKLH"><img class="Icon_icon__2Th0s Icon_x-small__3bLzJ" src="./CoinFalcon_files/chevron-down.svg" alt="chevron-down" decoding="auto"></div>
+                                    </div>
+                                 </div>
+                                 <div class="Select_inner__Rref2">
+                                    <span class="text text--normal text-weight--medium text-color--black " title="">Languages</span>
+                                    <div class="custom-scrollbar" style="position: relative; overflow: hidden; width: 100%; height: 210px;">
+                                       <div style="position: absolute; inset: 0px; overflow: scroll; margin-right: 0px; margin-bottom: 0px;">
+                                          <ul class="Select_list__Jh1jd">
+                                             <li class="en"><span class="locale-flag locale-flag--en"></span><span class="text text--small text-weight--medium text-color--black " title="">English</span></li>
+                                             <li class="en"><span class="locale-flag locale-flag--de"></span><span class="text text--small text-weight--medium text-color--black " title="">Deutsch</span></li>
+                                             <li class="en"><span class="locale-flag locale-flag--pl"></span><span class="text text--small text-weight--medium text-color--black " title="">Polski</span></li>
+                                          </ul>
+                                       </div>
+                                       <div class="Scrollbar_horizontal__22rXD" style="position: absolute; height: 6px; display: none;">
+                                          <div style="position: relative; display: block; height: 100%; cursor: pointer; border-radius: inherit; background-color: rgba(0, 0, 0, 0.2);"></div>
+                                       </div>
+                                       <div class="Scrollbar_vertical__3YB07" style="position: absolute; width: 6px; display: none;">
+                                          <div style="position: relative; display: block; width: 100%; cursor: pointer; border-radius: inherit; background-color: rgba(0, 0, 0, 0.2);"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="Select_select__JK0vz text-weight--medium Select_mobile__1VGEr col fiat__picker btn__shadow FiatCurrencyPicker_scrollbar__3JMxi">
+                                 <div class="Select_selector__1VNZq">
+                                    <div class="FiatCurrencyPicker_inner__3j-N4">
+                                       <div class="FiatCurrencyPicker_icon__3h80U"><span class="fiat-flag fiat-flag--usd"></span></div>
+                                       <span class="text text--normal text-weight--medium text-color--black text-clip" title="">United States Dollar</span>
+                                       <div class="FiatCurrencyPicker_chevron__mkU2d"><img class="Icon_icon__2Th0s Icon_x-small__3bLzJ" src="./CoinFalcon_files/chevron-down.svg" alt="chevron-down" decoding="auto"></div>
+                                    </div>
+                                 </div>
+                                 <div class="Select_inner__Rref2">
+                                    <span class="text text--normal text-weight--medium text-color--black " title="">Currency</span>
+                                    <div class="Select_search__8ERnj">
+                                       <div class="Input_wrapper__2KA27 Input_withAddon__LqHHt Input_dimmed__2C6Dq">
+                                          <div class="Input_leftAddon__2EV2M">
+                                             <span class="">
+                                                <svg viewBox="0 0 24 24" class="Icon_icon__2Th0s search__icon Icon_x-small__3bLzJ Icon_dark-light__7XQlF">
+                                                   <path d="M17.2 15.8l4.5 4.5c.4.4.4 1 0 1.4-.4.4-1 .4-1.4 0l-4.5-4.5c-3.7 2.9-9 2.3-11.9-1.4s-2.3-9 1.4-11.9 9-2.3 11.9 1.4c2.4 3 2.4 7.4 0 10.5zm-2-.8c2.5-2.6 2.4-6.7-.1-9.2S8.3 3.4 5.8 6s-2.4 6.7.2 9.2c2.5 2.5 6.5 2.5 9.1 0 0-.1 0-.1.1-.2z"></path>
+                                                </svg>
+                                             </span>
+                                          </div>
+                                          <input type="text" class="Input_input__1PqG1" placeholder="Search" maxlength="30" value="">
+                                       </div>
+                                    </div>
+                                    <div class="custom-scrollbar" style="position: relative; overflow: hidden; width: 100%; height: 210px;">
+                                       <div style="position: absolute; inset: 0px; overflow: scroll; margin-right: 0px; margin-bottom: 0px;">
+                                          <ul class="Select_list__Jh1jd"></ul>
+                                       </div>
+                                       <div class="Scrollbar_horizontal__22rXD" style="position: absolute; height: 6px; display: none;">
+                                          <div style="position: relative; display: block; height: 100%; cursor: pointer; border-radius: inherit; background-color: rgba(0, 0, 0, 0.2);"></div>
+                                       </div>
+                                       <div class="Scrollbar_vertical__3YB07" style="position: absolute; width: 6px; display: none;">
+                                          <div style="position: relative; display: block; width: 100%; cursor: pointer; border-radius: inherit; background-color: rgba(0, 0, 0, 0.2);"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="Notifications_container__1BpUe"></div>
+         <div class="ModalsRoot_overlay__xYhRA">
+            <div id="js-modals-root">
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+            </div>
+         </div>
+      </div>
+
+
+      <div aria-live="polite" class="crisp-client">
+         <div class="cc-1s47">
+            <div class="cc-1kpe">
+               <style type="text/css">.crisp-client *:focus-visible {
+                  outline-color: #0a4866 !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-1v0h {
+                  color: #ffffff !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-uv5q {
+                  color: #1ab6ff !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-1cu8 {
+                  background-color: #ffffff !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-ycwi {
+                  background-color: #0a4866 !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-18qu {
+                  background-color: #169ad8 !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-qfnu {
+                  background-color: #1ab6ff !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-qfnu *:focus-visible {
+                  outline-color: #F0F2F5 !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-1ms5 {
+                  background-color: #F6F5FA !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-1r50 {
+                  background-color: #F0F2F5 !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-zkg3 {
+                  border-color: #ffffff !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-ut0j,
+                  .crisp-client .cc-tlyw .cc-dpkb:hover {
+                  border-color: #1ab6ff !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-zg42 {
+                  border-color: rgba(26, 182, 255, 0.2) !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-1sel {
+                  border-bottom-color: #1ab6ff !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-jf4n::placeholder {
+                  color: #20e3ff !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-4upc::placeholder {
+                  color: #20e3ff !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-f23s,
+                  .crisp-client .cc-tlyw .cc-f23s:active,
+                  .crisp-client .cc-tlyw .cc-eugx:hover .cc-1una,
+                  .crisp-client .cc-tlyw .cc-eugx .cc-1una:active {
+                  background: #0a4866 !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-1oci,
+                  .crisp-client .cc-tlyw .cc-a691:hover,
+                  .crisp-client .cc-tlyw .cc-jf9n[data-active="true"] .cc-1lnv {
+                  background: #127fb2 !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-f23s:hover,
+                  .crisp-client .cc-tlyw .cc-1oci:hover,
+                  .crisp-client .cc-tlyw .cc-a691:active {
+                  background: #0e648c !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-1oci:active {
+                  background: #0a4866 !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-raer:hover .cc-y80i {
+                  background: #127fb2 !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-raer .cc-y80i:active {
+                  background: #0e648c !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-1t4x,
+                  .crisp-client .cc-tlyw .cc-pyh5:hover .cc-13te,
+                  .crisp-client .cc-tlyw .cc-pyh5 .cc-13te:active {
+                  background: #1ab6ff !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-1t4x:hover {
+                  background: #169ad8 !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-1t4x:active {
+                  background: #127fb2 !important;
+                  }
+                  .crisp-client .cc-tlyw .cc-14b7::selection,
+                  .crisp-client .cc-tlyw .cc-14b7 *::selection {
+                  color: #1c293b !important;
+                  background-color: #23f5ff !important;
+                  }
+               </style>
+            </div>
+            <div class="cc-15aw">
+               <style type="text/css">.crisp-client .cc-tlyw {
+                  z-index: 1000000;
+                  }
+               </style>
+            </div>
+         </div>
+         <div id="crisp-chatbox" lang="en" dir="ltr" translate="no" tabindex="-1" class="cc-tlyw" data-hidden="false" data-force-show="false" data-availability="away" data-lock-maximized="false" data-last-operator-face="false" data-ongoing-operator-face="false" data-availability-tooltip="false" data-hide-vacation="false" data-blocked="false" data-mobile-view="true" data-full-view="true" data-small-view="true" data-large-view="false" data-has-local-messages="false" data-was-availability-online="false" data-is-activity-ongoing="false" data-hide-on-away="true" data-hide-on-mobile="false" data-position-reverse="false">
+            <div class="cc-kxkl cc-14b7">
+               <a data-maximized="false" data-is-failure="false" class="cc-nsge" tabindex="0" role="button" aria-label="Open chat" data-pane-animate-entrance="false">
+                  <span class="cc-ujvn">
+                     <!--v-if-->
+                  </span>
+                  <span class="cc-imbb cc-qfnu">
+                     <span data-id="chat_closed" data-is-ongoing="false" class="cc-11f2">
+                        <span class="cc-15e7">
+                           <!--v-if-->
+                        </span>
+                     </span>
+                  </span>
+               </a>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
